@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@testing-library/react": "^9.3.3",
     "firebase": "^7.1.0",
     "rbx": "^2.2.0",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
     "react-firebaseui": "^4.0.0",
-    "react-scripts": "3.1.2",
-    "react-testing-library": "^8.0.1"
+    "react-scripts": "3.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -33,6 +33,7 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/dom": "^6.10.1",
     "typescript": "^3.6.3"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",

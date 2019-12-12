@@ -8,6 +8,7 @@ const Course = ({ course, state, user }) => (
   // console.log(course);
   <Button color={ buttonColor(state.selected.includes(course)) }
     onClick={ () => state.toggle(course) }
+    data-testid="markAsCompleted"
     onDoubleClick={ user ? () => moveCourse(course) : null }
     disabled={ hasConflict(course, state.selected) }
     >
