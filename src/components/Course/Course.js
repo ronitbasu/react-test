@@ -5,6 +5,7 @@ import { hasConflict, timeParts} from './times'
 import { db } from '../../App'
 
 const Course = ({ course, state, user }) => (
+  // console.log(course);
   <Button color={ buttonColor(state.selected.includes(course)) }
     onClick={ () => state.toggle(course) }
     onDoubleClick={ user ? () => moveCourse(course) : null }
